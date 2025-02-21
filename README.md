@@ -116,6 +116,8 @@ kumbara-ai/
 ├── types.ts              # TypeScript type definitions
 └── utils/              # Utility functions
 ```
+## Screenshot
+![kumbara](https://github.com/user-attachments/assets/261b0e11-b2b5-47db-baeb-6bb0ada5679e)
 
 ## Contributing
 

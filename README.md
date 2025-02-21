@@ -1,8 +1,8 @@
-# Kumbara AI - Smart Financial Management
-
 <p align="center">
-  <img src="assets/logo.png" alt="Kumbara AI Logo" width="200"/>
+  <img src="https://github.com/user-attachments/assets/0b63ca70-031f-4afe-a65b-711b3b19cf85" alt="Kumbara AI Logo" width="200"/>
 </p>
+
+# Kumbara AI - Smart Financial Management
 
 ## Overview
 

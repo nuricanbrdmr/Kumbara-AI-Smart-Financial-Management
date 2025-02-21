@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "KumbaraAi",
+    "slug": "kumbara-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/KumbaraAi-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/KumbaraAi-icon.png",
+        "backgroundColor": "#000120",
+        "resizeMode": "contain"
+      },
+      "package": "com.birdemir.kumbaraai"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/KumbaraAi-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/KumbaraAi-logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000120"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

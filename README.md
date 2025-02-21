@@ -31,7 +31,8 @@ Kumbara AI is a modern financial management application that leverages artificia
 - **Database**: Firestore
 - **State Management**: React Context
 - **UI Components**: Custom components with React Native
-
+- **AI Technology**: Google Gemini AI for smart financial analysis and recommendations
+  
 ## Getting Started
 
 ### Prerequisites
@@ -41,27 +42,27 @@ Kumbara AI is a modern financial management application that leverages artificia
 - Expo CLI
 - Firebase account
 
-### Installation
+## Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/kumbara-ai.git
+git clone https://github.com/nuricanbrdmr/Kumbara-AI-Smart-Financial-Management.git
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 
 ```bash
 cd kumbara-ai
 npm install
 ```
 
-3. Configure Firebase
+### 3. Configure Firebase
 
 1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
-1. Enable Authentication and Firestore in your Firebase project
-1. Get your Firebase configuration from Project Settings
-1. Create `config/firebase.ts` with your Firebase credentials:
+2. Enable Authentication and Firestore in your Firebase project
+3. Get your Firebase configuration from Project Settings
+4. Create `config/firebase.ts` with your Firebase credentials:
 
 ````typescript
 const FirebaseConfig = {
@@ -73,18 +74,19 @@ const FirebaseConfig = {
   appId: process.env.EXPO_PUBLIC_APP_ID,
   measurementId: process.env.EXPO_PUBLIC_MEASUREMENT_ID
 };
+`````
+### 4. Environment Setup
 
-4. Environment Setup
-# Cloudinary Configuration
+#### Cloudinary Configuration
 ```env
 EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME="your-cloud-name"
 EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET="your-upload-preset"
 ```
-# Google Gemini AI API
+#### Google Gemini AI API
 ```env
 EXPO_PUBLIC_GEMINI_API_KEY="your-gemini-api-key"
 ```
-# Firebase Configuration
+#### Firebase Configuration
 ```env
 EXPO_PUBLIC_API_KEY=your_api_key
 EXPO_PUBLIC_AUTH_DOMAIN=your_auth_domain
@@ -95,7 +97,7 @@ EXPO_PUBLIC_APP_ID=your_app_id
 EXPO_PUBLIC_MEASUREMENT_ID=your_measurement_id
 ```
 
-5. Start the development server
+## 5. Start the development server
 
 ```bash
 npm run android or npx expo start -c
@@ -129,4 +131,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any inquiries, please reach out to [nuricanb1903@gmail.com]
+For any inquiries, please reach out to [mail](nuricanb1903@gmail.com)
